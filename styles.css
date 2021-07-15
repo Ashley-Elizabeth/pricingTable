@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #4c35e0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+h2 {
+  text-transform: uppercase;
+  color: #ffe4d4;
+  text-align: center;
+  padding-top: 40px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 16px;
+  
+}
+
+h1 {
+  color: #ffe4d4;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+
+p {
+  line-height: 2.5;
+  padding: 20px;
+  color: gray;
+}
+
+.dollar {
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.banner {
+  background-color: #ffe4d4;
+  min-width: 75%;
+  padding: 10;
+  margin: 10;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.banner h2 {
+  color: #4c35e0;
+  text-transform: uppercase;
+  font-weight:800;
+  font-size: 1.3em;
+  padding: 10px;
+  letter-spacing: -1px;
+  
+  
+  
+  
+  
+}
+
+.container {
+  min-width: 100vw;
+  padding: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  
+}
+
+.card {
+  max-width: calc(33.33vw - 1em);
+  flex: 1 1 auto;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  box-shadow: 3px 3px 8px hsl(0, 1%, 20%);
+}
+
+
+
+span {
+  font-size: 60px;
+  padding: 5px;
+}
+
+.card h1 {
+  color: #4c35e0;
+}
+
+.card h3 {
+  color: #fcd833;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.card:nth-child(2) {
+  flex-basis: 20vw;
+  padding: 0;
+}
+
+button {
+  border: 2px solid #4c35e0;
+  padding: 20px;
+  margin: 30px;
+  color: white;
+  width: 60%;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
+
+.lr {
+  background-color: white;
+  border: none;
+  color:#4c35e0;
+}
+
+
+a:link {
+  color:#4c35e0;
+}
+
+a:focus {
+  color: #4c35e0;
+}
+
+a:visited {
+  color: #4c35e0;
+}
+
+a:hover {
+  color: rgb(111, 111, 109);
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+
+
+@media screen and (min-width: 360px) {
+  .banner h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+
+
